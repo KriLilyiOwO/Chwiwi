@@ -1,0 +1,42 @@
+:root {
+    --brand-primary: #ff6b6b;
+    --brand-dark: #2d3436;
+}
+
+body {
+    background-color: #fcfcfc;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+    background: #fff;
+    border-bottom: 2px solid var(--brand-primary);
+}
+
+.navbar-brand {
+    font-weight: 800;
+    color: var(--brand-primary) !important;
+}
+
+.checkout-card {
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-chewiwi {
+    background-color: var(--brand-primary);
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+.btn-chewiwi:hover {
+    background-color: #ee5253;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.sticky-summary {
+    position: sticky;
+    top: 20px;
+}
